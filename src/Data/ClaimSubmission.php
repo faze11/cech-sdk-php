@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Clearinghouse\Data;
+namespace Clearinghouse\Data;
 
 use Spatie\DataTransferObject\DataTransferObject;
 
@@ -38,9 +38,9 @@ class ClaimSubmission extends DataTransferObject
 
     public float $amount;
 
-    /** @var \App\Services\Clearinghouse\Data\Visit[] */
+    /** @var \Clearinghouse\Data\Visit[] */
     public array $visits;
 
-    /** @var null|\App\Services\Clearinghouse\Data\FeeLineItem[] */
+    /** @var null|\Clearinghouse\Data\FeeLineItem[] */
     public ?array $fees;
 }

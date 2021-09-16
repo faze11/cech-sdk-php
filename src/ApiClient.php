@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Services\Clearinghouse;
+namespace Clearinghouse;
 
-use App\Services\Clearinghouse\Data\ClaimSubmission;
-use App\Services\Clearinghouse\Data\SubmissionStatusResponse;
-use App\Services\Clearinghouse\Exceptions\ValidationException;
-use App\Services\Clearinghouse\Exceptions\DuplicateClaimException;
-use App\Services\Clearinghouse\Exceptions\InvalidResponseException;
+use Clearinghouse\Data\ClaimSubmission;
+use Clearinghouse\Data\SubmissionStatusResponse;
+use Clearinghouse\Exceptions\ValidationException;
+use Clearinghouse\Exceptions\DuplicateClaimException;
+use Clearinghouse\Exceptions\InvalidResponseException;
 
 class ApiClient
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Clearinghouse;
+namespace Clearinghouse;
 
 use Spatie\DataTransferObject\DataTransferObject;
 

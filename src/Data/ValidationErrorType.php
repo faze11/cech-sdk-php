@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Clearinghouse\Data;
+namespace Clearinghouse\Data;
 
 /**
  * ValidationErrorType Enum

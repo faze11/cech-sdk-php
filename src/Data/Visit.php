@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Clearinghouse\Data;
+namespace Clearinghouse\Data;
 
 use Spatie\DataTransferObject\DataTransferObject;
 
@@ -72,12 +72,12 @@ class Visit extends DataTransferObject
 
     public ?int $end_unverified_reason_code;
 
-    /** @var \App\Services\Clearinghouse\Data\Adl[]|null */
+    /** @var \Clearinghouse\Data\Adl[]|null */
     public ?array $adls;
 
     public ?string $notes;
 
-    /** @var \App\Services\Clearinghouse\Data\VisitLineItem[] */
+    /** @var \Clearinghouse\Data\VisitLineItem[] */
     public array $line_items;
 
     public float $amount;

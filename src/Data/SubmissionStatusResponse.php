@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Clearinghouse\Data;
+namespace Clearinghouse\Data;
 
 use Spatie\DataTransferObject\DataTransferObject;
 
@@ -14,6 +14,6 @@ class SubmissionStatusResponse extends DataTransferObject
 
     public string $status;
 
-    /** @var null|\App\Services\Clearinghouse\Data\ClaimValidationError[] */
+    /** @var null|\Clearinghouse\Data\ClaimValidationError[] */
     public ?array $validation_errors;
 }
