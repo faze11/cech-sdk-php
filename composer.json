@@ -1,0 +1,41 @@
+{
+    "name": "faze11/cech-sdk-php",
+    "description": "LTCG CareExchange Clearinghouse SDK for PHP",
+    "keywords": [
+        "api",
+        "sdk",
+        "ltcg",
+        "careexchange",
+        "clearinghouse",
+        "cech"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Willard",
+            "email": "jon.willard@ltcg.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "spatie/data-transfer-object": "^1.13",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clearinghouse\\": "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Clearinghouse\\Tests\\": "tests/"
+        }
+    }
+}
